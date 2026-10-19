@@ -84,7 +84,7 @@
     position: fixed;
     inset: 0 0 auto;
     height: env(safe-area-inset-top, 0px);
-    background: var(--nav);
+    background: var(--gold);
     z-index: 30;
   }
   h1,
