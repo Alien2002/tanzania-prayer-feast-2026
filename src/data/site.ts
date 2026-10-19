@@ -1,0 +1,37 @@
+export const site = {
+  name: "Prayer Feast 2026",
+  organization: "Tanzania Youth Prayer Assembly",
+  eventDate: "2026-12-09T00:00:00+03:00",
+  displayDate: "Wednesday, 9 December 2026",
+  contacts: {
+    info: "255717053021",
+    laborers: "255785274238",
+    partner: "255764661070",
+    partnerAlternative: "255757751427",
+  },
+  instagram: "https://www.instagram.com/tanzania_youth_prayer_assembly/?hl=en",
+  youtube: "https://www.youtube.com/@elia_joshua",
+  venue: { name: "", address: "", mapQuery: "" },
+} as const;
+export const assets = {
+  logo: "/images/typa-logo.png",
+  title: "/images/prayer-feast-title.png",
+  photos: [
+    "/images/gathering-01.jpg",
+    "/images/gathering-02.jpg",
+    "/images/gathering-03.jpg",
+    "/images/gathering-04.jpg",
+    "/images/gathering-05.jpg",
+    "/images/gathering-06.jpg",
+    "/images/gathering-07.jpg",
+    "/images/gathering-08.jpg",
+    "/images/gathering-09.jpg",
+    "/images/gathering-10.jpg",
+    "/images/gathering-11.jpg",
+    "/images/gathering-12.jpg",
+    "/images/gathering-13.jpg",
+    "/images/gathering-14.jpg",
+    "/images/gathering-15.jpg",
+  ],
+  host: "/images/founder-host.webp",
+} as const;
